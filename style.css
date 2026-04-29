@@ -1,0 +1,164 @@
+/* Basic saree shop styles */
+
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background: linear-gradient(90deg, #de7524, #be2102);
+  color: #270806;
+}
+
+header {
+  background: linear-gradient(135deg, #f6b27e, #d86f5a);
+  color: #480101;
+  padding: 24px 20px;
+  text-align: center;
+  align="center";
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.4rem;
+  padding: 24px 20px;
+  background: linear-gradient(180deg, #f6b27e, #d86f5a);
+  color: #270806;
+  text-align: center;
+animation-timing-function: ease-in-out;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 24px;
+  background: rgba(255, 243, 234, 0.96);
+  border-bottom: 1px solid #f2d3c0;
+  box-shadow: 0 8px 20px rgba(108, 46, 23, 0.08);
+}
+
+.navbar-brand {
+  color: #7b2d0f;
+  font-size: 1.35rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  color: #5a200b;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav .nav-link {
+  color: #7b2d0f;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 14px;
+  border-radius: 10px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  background: #f5d2c0;
+  color: #5a200b;
+}
+
+@media (max-width: 720px) {
+  .navbar {
+    justify-content: center;
+    padding: 16px 18px;
+  }
+
+  .navbar-nav {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+main {
+  padding: 24px 20px;
+}
+
+section {
+  margin-bottom: 28px;
+}
+
+h2 {
+  color: #8f3d2a;
+  margin-bottom: 14px;
+}
+
+p {
+  line-height: 1.65;
+  color: #5a3934;
+}
+
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background: #fff3ea;
+  border: 1px solid #f0d0bb;
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(164, 95, 70, 0.12);
+  padding: 20px;
+  margin-bottom: 18px;
+  flex: 1 1 260px;
+  max-width: 320px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+button,
+.button {
+  background: #dc8a5c;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  padding: 12px 22px;
+}
+
+button:hover,
+.button:hover {
+  background: #bf6743;
+}
+
+footer {
+  background: #f3d4c9;
+  color: #5f3c35;
+  padding: 18px 20px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 32px 40px;
+  }
+}
